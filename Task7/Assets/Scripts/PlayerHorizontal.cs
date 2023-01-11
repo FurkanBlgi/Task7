@@ -10,9 +10,13 @@ public class PlayerHorizontal : MonoBehaviour, IDragHandler
     public float mouseSensivity;
     public void OnDrag(PointerEventData eventData)
     {
-        Vector3 pos = player0.position;
-        pos.x = Mathf.Clamp(pos.x + (eventData.delta.x / mouseSensivity), 0, 4);
-        player0.position = new Vector3(pos.x, player0.position.y, pos.z);
-        player1.position = new Vector3(-pos.x, player1.position.y, -pos.z);
+        if (PlayerConroller.instance.start)
+        {
+            Vector3 pos = player0.position;
+            pos.x = Mathf.Clamp(pos.x + (eventData.delta.x / mouseSensivity), 0, 4);
+            player0.position = new Vector3(pos.x, player0.position.y, pos.z);
+            player1.position = new Vector3(-pos.x, player1.position.y, pos.z);
+        }
+        
     }
 }
