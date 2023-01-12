@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class Finish : MonoBehaviour
 {
+    public ParticleSystem particle, particle1;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -13,6 +14,8 @@ public class Finish : MonoBehaviour
             PlayerConroller.instance.start = false;
             PlayerConroller.instance.player1.transform.DOMoveX(0, 1);
             PlayerConroller.instance.player2.transform.DOMoveX(0, 1);
+            particle1.Play();
+            particle.Play();
             //PlayerConroller.instance.player1.transform.position = new Vector3(0, PlayerConroller.instance.player1.transform.position.y, PlayerConroller.instance.player1.transform.position.z);
             //PlayerConroller.instance.player2.transform.position = new Vector3(0, PlayerConroller.instance.player2.transform.position.y, PlayerConroller.instance.player2.transform.position.z);
 
