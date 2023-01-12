@@ -246,7 +246,7 @@ MonoBehaviour:
     FieldOfView: 75
     OrthographicSize: 5
     NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FarClipPlane: 154.89
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -268,13 +268,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280359134}
   m_LocalRotation: {x: 0.15122633, y: 0, z: 0, w: 0.9884992}
-  m_LocalPosition: {x: 0, y: 8.989741, z: -17.24261}
+  m_LocalPosition: {x: 0, y: 8.989742, z: -17.242603}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 725493874}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 17.396, y: 0, z: 0}
 --- !u!1 &308876068
 GameObject:
@@ -639,9 +639,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 75.8204}
   m_LocalScale: {x: 1, y: 1, z: 19.240847}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 581601596}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &503508934
 GameObject:
@@ -739,7 +740,7 @@ RectTransform:
   - {fileID: 1227345194}
   - {fileID: 308876069}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -905,16 +906,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581601595}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -7.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.3407855}
+  m_LocalScale: {x: 1, y: 1, z: 0.05197276}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4950637430240475879}
   - {fileID: 543450652286994380}
   - {fileID: 462355260}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 492813293}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &581601597
 MonoBehaviour:
@@ -1029,7 +1030,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &724118646
 GameObject:
@@ -1217,7 +1218,7 @@ MonoBehaviour:
   m_LookaheadIgnoreY: 0
   m_XDamping: 0
   m_YDamping: 0
-  m_ZDamping: 0
+  m_ZDamping: 2
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
@@ -1320,7 +1321,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &942778411 stripped
 Transform:
@@ -1513,7 +1514,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 154.89
   field of view: 75
   orthographic: 0
   orthographic size: 5
@@ -1540,7 +1541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.15122633, y: 0, z: 0, w: 0.9884992}
-  m_LocalPosition: {x: 0, y: 8.989741, z: -17.24261}
+  m_LocalPosition: {x: 0, y: 8.989742, z: -17.242603}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1619,7 +1620,7 @@ Transform:
   - {fileID: 1063801717}
   - {fileID: 2072424274}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1013016739
 GameObject:
@@ -2134,7 +2135,7 @@ Transform:
   - {fileID: 27767051}
   - {fileID: 1294452204}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1517919910
 PrefabInstance:
@@ -3204,7 +3205,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 169994386789228208, guid: 927723dad54587b459a44bf26a82e586, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 169994386789228208, guid: 927723dad54587b459a44bf26a82e586, type: 3}
       propertyPath: m_LocalPosition.x
