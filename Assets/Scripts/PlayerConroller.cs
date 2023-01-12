@@ -27,8 +27,6 @@ public class PlayerConroller : MonoBehaviour
         playerAnim2 = player2.GetComponent<Animator>();
         bigPlayerAnim = bigPlayer.GetComponent<Animator>();
     }
-
-
     void Update()
     {
         PlayerMove();

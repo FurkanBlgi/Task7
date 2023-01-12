@@ -16,11 +16,8 @@ public class Finish : MonoBehaviour
             PlayerConroller.instance.player2.transform.DOMoveX(0, 1);
             particle1.Play();
             particle.Play();
-            PlayerConroller.instance.bigPlayer.GetComponent<Animator>().SetBool("Run",false);
-            PlayerConroller.instance.bigPlayer.GetComponent<Animator>().SetBool("Win",true);
-            //PlayerConroller.instance.player1.transform.position = new Vector3(0, PlayerConroller.instance.player1.transform.position.y, PlayerConroller.instance.player1.transform.position.z);
-            //PlayerConroller.instance.player2.transform.position = new Vector3(0, PlayerConroller.instance.player2.transform.position.y, PlayerConroller.instance.player2.transform.position.z);
-
+            PlayerConroller.instance.bigPlayer.GetComponent<Animator>().SetBool("Run", false);
+            PlayerConroller.instance.bigPlayer.GetComponent<Animator>().SetBool("Win", true);
         }
     }
 }
