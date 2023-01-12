@@ -1499,7 +1499,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.5223567, g: 0.5869788, b: 0.6886792, a: 0}
+  m_BackGroundColor: {r: 0.18118544, g: 0.70568085, b: 0.8207547, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2768,7 +2768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player0: {fileID: 543450652286994380}
   player1: {fileID: 462355260}
-  mouseSensivity: 500
+  mouseSensivity: 200
 --- !u!114 &1994990718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3058,6 +3058,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 6865368580461616130, guid: ad8c12293e3ecb847b9d403eac5f7455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8803545717538002131, guid: ad8c12293e3ecb847b9d403eac5f7455, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.024089327
+      objectReference: {fileID: 0}
+    - target: {fileID: 8803545717538002131, guid: ad8c12293e3ecb847b9d403eac5f7455, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0126372855
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad8c12293e3ecb847b9d403eac5f7455, type: 3}
 --- !u!1001 &1280898258876283049
@@ -3172,6 +3184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8107279237214706058, guid: c0d5b109fa1cd074e953b9aae8f5edc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13a19d3c329489646b898fc3d693a7c3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0d5b109fa1cd074e953b9aae8f5edc4, type: 3}
 --- !u!4 &4950637430240475879 stripped
